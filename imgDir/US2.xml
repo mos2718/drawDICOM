@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NativeDicomModel>
+<DicomAttribute  tag="00020000"  offset ="140" length ="4"  vr= "UL" keyword= "FileMetaInformationGroupLength" ><Value number="1" >204</Value></DicomAttribute>
+<DicomAttribute  tag="00020001"  offset ="156" length ="2"  vr= "OB" keyword= "FileMetaInformationVersion" ></DicomAttribute>
+<DicomAttribute  tag="00020002"  offset ="166" length ="28"  vr= "UI" keyword= "MediaStorageSOPClassUID" ><Value number="1" >1.2.840.10008.5.1.4.1.1.6.1</Value></DicomAttribute>
+<DicomAttribute  tag="00020003"  offset ="202" length ="58"  vr= "UI" keyword= "MediaStorageSOPInstanceUID" ><Value number="1" >1.2.840.1136190195280574824680000700.3.0.1.19970424140438</Value></DicomAttribute>
+<DicomAttribute  tag="00020010"  offset ="268" length ="20"  vr= "UI" keyword= "TransferSyntaxUID" ><Value number="1" >1.2.840.10008.1.2.2</Value></DicomAttribute>
+<DicomAttribute  tag="00020012"  offset ="296" length ="28"  vr= "UI" keyword= "ImplementationClassUID" ><Value number="1" >1.2.276.0.7230010.3.0.3.1.1</Value></DicomAttribute>
+<DicomAttribute  tag="00020013"  offset ="332" length ="16"  vr= "SH" keyword= "ImplementationVersionName" ><Value number="1" >OFFIS-DCMTK-311 </Value></DicomAttribute>
+<DicomAttribute  tag="00080000"  offset ="356" length ="4"  vr= "UL" keyword= "IdentifyingGroupLength" ><Value number="1" >308</Value></DicomAttribute>
+<DicomAttribute  tag="00080008"  offset ="368" length ="28"  vr= "CS" keyword= "ImageType" ><Value number="1" >ORIGINAL\PRIMARY\EPICARDIAL </Value></DicomAttribute>
+<DicomAttribute  tag="00080016"  offset ="404" length ="28"  vr= "UI" keyword= "SOPClassUID" ><Value number="1" >1.2.840.10008.5.1.4.1.1.6.1</Value></DicomAttribute>
+<DicomAttribute  tag="00080018"  offset ="440" length ="58"  vr= "UI" keyword= "SOPInstanceUID" ><Value number="1" >1.2.840.1136190195280574824680000700.3.0.1.19970424140438</Value></DicomAttribute>
+<DicomAttribute  tag="00080020"  offset ="506" length ="10"  vr= "DA" keyword= "StudyDate" ><Value number="1" >1997.04.24</Value></DicomAttribute>
+<DicomAttribute  tag="00080030"  offset ="524" length ="8"  vr= "TM" keyword= "StudyTime" ><Value number="1" >14:04:38</Value></DicomAttribute>
+<DicomAttribute  tag="00080060"  offset ="540" length ="2"  vr= "CS" keyword= "Modality" ><Value number="1" >US</Value></DicomAttribute>
+<DicomAttribute  tag="00080070"  offset ="550" length ="20"  vr= "LO" keyword= "Manufacturer" ><Value number="1" >G.E. Medical Systems</Value></DicomAttribute>
+<DicomAttribute  tag="00080080"  offset ="578" length ="18"  vr= "LO" keyword= "InstitutionName" ><Value number="1" >GE MEDICAL SYSTEMS</Value></DicomAttribute>
+<DicomAttribute  tag="00081010"  offset ="604" length ="6"  vr= "SH" keyword= "StationName" ><Value number="1" >mvme87</Value></DicomAttribute>
+<DicomAttribute  tag="00081090"  offset ="618" length ="10"  vr= "LO" keyword= "ManufacturerModelName" ><Value number="1" >LOGIQ 700 </Value></DicomAttribute>
+<DicomAttribute  tag="00082122"  offset ="636" length ="2"  vr= "IS" keyword= "StageNumber" ><Value number="1" >0 </Value></DicomAttribute>
+<DicomAttribute  tag="00082124"  offset ="646" length ="2"  vr= "IS" keyword= "NumberOfStages" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00082128"  offset ="656" length ="2"  vr= "IS" keyword= "ViewNumber" ><Value number="1" >0 </Value></DicomAttribute>
+<DicomAttribute  tag="0008212A"  offset ="666" length ="2"  vr= "IS" keyword= "NumberOfViewsInStage" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00100000"  offset ="676" length ="4"  vr= "UL" keyword= "PatientGroupLength" ><Value number="1" >18</Value></DicomAttribute>
+<DicomAttribute  tag="00100010"  offset ="688" length ="10"  vr= "PN" keyword= "PatientName" ><Value number="1" >Anonymized</Value></DicomAttribute>
+<DicomAttribute  tag="00180000"  offset ="706" length ="4"  vr= "UL" keyword= "AcquisitionGroupLength" ><Value number="1" >28</Value></DicomAttribute>
+<DicomAttribute  tag="00181000"  offset ="718" length ="8"  vr= "LO" keyword= "DeviceSerialNumber" ><Value number="1" >4131101 </Value></DicomAttribute>
+<DicomAttribute  tag="00181020"  offset ="734" length ="4"  vr= "LO" keyword= "SoftwareVersions" ><Value number="1" >R6.1</Value></DicomAttribute>
+<DicomAttribute  tag="00200000"  offset ="746" length ="4"  vr= "UL" keyword= "ImageGroupLength" ><Value number="1" >134</Value></DicomAttribute>
+<DicomAttribute  tag="0020000D"  offset ="758" length ="48"  vr= "UI" keyword= "StudyInstanceUID" ><Value number="1" >1.2.840.113619.2.21.848.246800003.0.1952805748.3</Value></DicomAttribute>
+<DicomAttribute  tag="0020000E"  offset ="814" length ="50"  vr= "UI" keyword= "SeriesInstanceUID" ><Value number="1" >1.2.840.113619.2.21.24680000.700.0.1952805748.3.0</Value></DicomAttribute>
+<DicomAttribute  tag="00200011"  offset ="872" length ="2"  vr= "IS" keyword= "SeriesNumber" ><Value number="1" >0 </Value></DicomAttribute>
+<DicomAttribute  tag="00200013"  offset ="882" length ="2"  vr= "IS" keyword= "InstanceNumber" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00280000"  offset ="892" length ="4"  vr= "UL" keyword= "ImagePresentationGroupLength" ><Value number="1" >92</Value></DicomAttribute>
+<DicomAttribute  tag="00280002"  offset ="904" length ="2"  vr= "US" keyword= "SamplesPerPixel" ><Value number="1" >3</Value></DicomAttribute>
+<DicomAttribute  tag="00280004"  offset ="914" length ="4"  vr= "CS" keyword= "PhotometricInterpretation" ><Value number="1" >RGB </Value></DicomAttribute>
+<DicomAttribute  tag="00280006"  offset ="926" length ="2"  vr= "US" keyword= "PlanarConfiguration" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00280010"  offset ="936" length ="2"  vr= "US" keyword= "Rows" ><Value number="1" >480</Value></DicomAttribute>
+<DicomAttribute  tag="00280011"  offset ="946" length ="2"  vr= "US" keyword= "Columns" ><Value number="1" >640</Value></DicomAttribute>
+<DicomAttribute  tag="00280100"  offset ="956" length ="2"  vr= "US" keyword= "BitsAllocated" ><Value number="1" >8</Value></DicomAttribute>
+<DicomAttribute  tag="00280101"  offset ="966" length ="2"  vr= "US" keyword= "BitsStored" ><Value number="1" >8</Value></DicomAttribute>
+<DicomAttribute  tag="00280102"  offset ="976" length ="2"  vr= "US" keyword= "HighBit" ><Value number="1" >7</Value></DicomAttribute>
+<DicomAttribute  tag="00280103"  offset ="986" length ="2"  vr= "US" keyword= "PixelRepresentation" ><Value number="1" >0</Value></DicomAttribute>
+<DicomAttribute  tag="7FE00000"  offset ="996" length ="4"  vr= "UL" keyword= "PixelDataGroupLength" ><Value number="1" >921612</Value></DicomAttribute>
+<DicomAttribute  tag="7FE00010"  offset ="1012" length ="921600"  vr= "OB" keyword= "PixelData" ></DicomAttribute>
+</NativeDicomModel>

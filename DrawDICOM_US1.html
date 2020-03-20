@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>  <script src="HTTP2019.js"></script>      </head>
+<body style="width: 1405px; height: 1335px;">
+<input id="Button1" onclick="setPixel()" type="button" value="button" /><br><br>
+<canvas id="canvas" width="640" height="486"></canvas>
+<script>
+    
+	var dicomData;
+    // Load DICOM image binary data
+    function callBack() { dicomData = new DataView(ret);   } 
+	HTTPGetBinaryData("imgDir/US1.dcm"); 
+    var c = document.getElementById("canvas");
+    var ctx = c.getContext("2d");
+
+    function setPixel() {
+        // Create an ImageData object
+        var imageData = ctx.getImageData(0, 0, c.width, c.height);
+        for (var x = 0; x < c.width; x++) {
+            for (var y = 0; y < c.height; y++) {
+                // Get DICOM image pixel index, 1118 pixelDataOffset
+                var dicomPixelIndex = (y * c.width + x) * 3 + 916;
+                // Get the canvas Data +  index
+                var canvasDataIndex = (y * c.width + x) * 4;
+                imageData.data[canvasDataIndex] = dicomData.getUint8(dicomPixelIndex);     // Red
+                imageData.data[canvasDataIndex + 1] = dicomData.getUint8(dicomPixelIndex +1); // Green
+                imageData.data[canvasDataIndex + 2] = dicomData.getUint8(dicomPixelIndex +2);  // Blue
+                imageData.data[canvasDataIndex + 3] =255;   // Alpha
+            }
+        }
+        ctx.putImageData(imageData, 0, 0); //,300,200, width, height);
+    }
+</script>
+</body>
+</html>

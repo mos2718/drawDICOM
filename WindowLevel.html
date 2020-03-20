@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+
+<head>
+    <meta content="width=device-width; charset="utf-8"/ >
+    <title>HTML5 Canvas</title>
+    <script language="JavaScript" type="text/javascript" src="AjaxCallBack.js"></script>
+    <style type="text/css">
+        canvas {
+            position: absolute; /*絕對定位*/
+            left: 0px;
+            top: 0px;
+            border: 3px double black;
+            /*外框設定 cursor:pointer; 游標圖案設定;*/
+        }
+
+ 
+
+        #canvas {
+            z-index: 100;
+            background-color: black;
+        }
+
+        #drawCanvas {
+            z-index: 1000;
+        }
+
+
+
+        #TextAreal {
+            height: 5px;
+            width: 0px;
+        }
+
+
+        #Button1 {
+            height: 48px;
+            width: 200px;
+        }
+    </style>
+
+</head>
+<body style="width: 1405px; height: 1335px;">
+     <canvas id="canvas" width="800" height="1000"></canvas>
+    <canvas id="drawCanvas" width="800" height="1000"></canvas>  
+
+    <div id='tool' style="height: 305px; width: 300px; margin-left: 800px" class="auto-style3">
+        <span class="auto-style2">&nbsp;WindowCenter</span>&nbsp; :&nbsp;
+    <input type = "number" id = "Center" min = "0" max = "10000" value = "500" step = "1" /> &nbsp;&nbsp; &nbsp;<br />
+        <span class="auto-style2">&nbsp;WindowWidth&nbsp; :&nbsp;</span>&nbsp;
+    <input type = "number" id = "Width" min = "0" max = "10000" value = "1000" step = "1" />
+        <br />
+        <br />
+        <input id="Button1" onclick="Button1_onclick()" type="button" value="button" /><br />
+       <p id="P1"></p>
+       <p id="demo"></p>
+   </div>
+</body>
+    <script type="text/javascript">
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        var drawCanvas = document.getElementById("drawCanvas");
+        var drawCtx = drawCanvas.getContext("2d");
+     /*   enlargeimage = document.getElementById("enlargeimage");
+        ectx = enlargeimage.getContext("2d");
+        */
+        ctx.strokeStyle = 'red';
+        drawCtx.strokeStyle = 'red';
+
+
+        // Load DICOM image binary data
+        var xhttp = new XMLHttpRequest(); //W3C標準  可容易地從URL取得資料而不用刷新頁面
+        xhttp.open('GET', "imgDir/CT_A.dcm", true);
+        xhttp.responseType = "arraybuffer"; //取得或設定實際回應類型
+        xhttp.onreadystatechange = function () { //指明要處理傳回值
+            if (xhttp.readyState == 4)  //0 (還沒開始)  1 (讀取中)  2 (已讀取)  3 (資訊交換中)  4 (一切完成)
+                dataview = new DataView(xhttp.response);
+        }
+        xhttp.send();
+
+        var Rows = 512;
+        var Columns = 512;
+        var Offset = 3700;
+        var WindowCenter = 400;
+        var WindowWidth = 1500;
+
+        //畫圖
+        function ShowImg() {
+          
+            var pvalue = new Array(Rows);
+            for (var i = 0; i < Rows; i++)
+                pvalue[i] = new Array(Columns);
+            Max = WindowCenter + WindowWidth / 2;
+            Min = WindowCenter - WindowWidth / 2;
+            var Value = 0;
+            //var z = 0, q = 0, temp = 0, temp2 = 0;
+            for (i = 0; i < Rows; i++) {
+                for (j = 0; j < Columns; j++) {
+                    var i1 = i * Columns + j;
+                    pvalue[i][j] = dataview.getUint16(Offset + 2 * (i1), true); // true for littel endian 在從檢視開頭算起的指定位元組位移處取得 Int16 值 (應該在緩衝區中擷取之值的位置 ; 如果是 false 或 undefined，就會讀取位元組由大到小的值，否則會讀取位元組由小到大的值)
+                    if (pvalue[i][j] >= Max) GrayValue = 255; // 灰階值 白
+                    else if (Min > pvalue[i][j]) GrayValue = 0; // 灰階值 黑    if ((pvalue[i][j] == 1) GrayValue = 0; for mammography
+                    else GrayValue = Math.round((pvalue[i][j] - Min) / WindowWidth * 256); //對數字做指定位數的四捨五入計算;電腦顯示值
+                    ctx.fillStyle = "rgb(" + GrayValue + "," + GrayValue + "," + GrayValue + ")"; //取得或設定圖樣，用來填滿 Circle 和 Line 圖形方法所建立的圖形(RR,GG,BB)
+                    ctx.fillRect(j, i, 1, 1); //x,y,從1,1畫
+                }
+            }
+        }
+
+        function Button1_onclick() {
+          /*  simage = 1;
+            WindowCenterStr = document.getElementById("Center").value;
+            WindowCenter = parseInt(WindowCenterStr);
+            WindowWidthStr = document.getElementById("Width").value;
+            WindowWidth = parseInt(WindowWidthStr);
+            ctx.clearRect(0, 0, canvas.width, canvas.height);  */
+        //    ectx.clearRect(0, 0, enlargeimage.width, enlargeimage.height);
+            ShowImg();
+        }
+
+        var state = 1; //1=塗鴉 2=直線 3=圓形 4=橢圓形 5=正方形 6=長方形 7=橡皮擦 8=註解
+        var lastX = 0, lastY = 0, curX = 0, curY = 0, startX = 0, startY = 0;
+        var OriginX, OriginY;
+        var adjusting = false;
+        drawCanvas.onmousedown = function (e) {
+            adjusting = true;
+            startX = e.clientX;
+            startY = e.clientY;
+            // var x2 = e.clientX;
+            // var y2 = e.clientY;
+
+            var coords = "X coords: " + startX + ", Y coords: " + startY;
+            document.getElementById("P1").innerHTML = coords;
+
+         /*
+            lastX = e.pageX - this.offsetLeft; //pageX:滑鼠指針的位置=文檔的左邊 ; offsetLeft:表示Element左邊距離與offsetParent(body)左邊界距離
+            lastY = e.pageY - this.offsetTop; //pageY:滑鼠指針的位置=文檔的上邊 ; offsetTop:表示Element上邊距離與offsetParent上邊界距離
+            startX = lastX;
+            startX = lastY;  */
+        }
+        var nextCenter, nextWidth;
+        nextCenter = WindowCenter;
+        nextWidth = WindowWidth;
+        var coords = "Window center: " + nextCenter + ", Window width: " + nextWidth;
+        document.getElementById("demo").innerHTML = coords;
+        drawCanvas.onmousemove = function (e) {
+            if (adjusting == true) {
+                var x = e.clientX;
+                var y = e.clientY;
+                nextCenter = WindowCenter + x - startX;
+                nextWidth = WindowWidth + y - startY;
+                //var coords = "X coords: " + x + ", Y coords: " + y;
+                var coords = "Window center: " + nextCenter + ", Window width: " + nextWidth;
+                document.getElementById("demo").innerHTML = coords;
+            }
+        }
+        drawCanvas.onmouseup = function (e) {
+            if (adjusting == true) {
+                adjusting = false;
+                WindowCenter = nextCenter;
+                WindowWidth = nextWidth;
+                ShowImg();
+            }
+        }
+    </script>
+
+</html>

@@ -1,0 +1,49 @@
+
+<html>
+
+<head>
+  <script src="HTTP2019.js"></script>   
+</head>
+<body style="width: 1405px; height: 1335px;">
+    <input id="Button1" onclick="ShowImg()" type="button" value="button" /><br />
+     <canvas id="canvas" width="512" height="512"></canvas>
+</body>
+    <script>
+	var dicomData;
+    // Load DICOM image binary data
+    function callBack() { dicomData = new DataView(ret);   } 
+	HTTPGetBinaryData("imgDir/MRBRAIN.dcm"); 
+    var c = document.getElementById("canvas");
+    var ctx = c.getContext("2d");
+    
+    // image format information from MRBRAIN.dcm file pixel module 
+    var Rows = 512;
+    var Columns = 512;
+    var Offset = 1658;
+    var WindowCenter = 1951;
+    var WindowWidth = 237;
+
+    //畫圖
+    function ShowImg() {
+        Max = WindowCenter + WindowWidth / 2;
+        Min = WindowCenter - WindowWidth / 2;
+        var canvasData = ctx.getImageData(0, 0, c.width, c.height);
+        var pixelValue,  grayValue, imagePixelIndex, canvasDataIndex ;
+        for (canvasDataIndex = 0; canvasDataIndex < canvasData.data.length; canvasDataIndex += 4)
+            {  imagePixelIndex = canvasDataIndex/4;
+               pixelValue = dicomData.getUint16(Offset + 2 * (imagePixelIndex), true); // true for littel endian 在從檢視開頭算起的指定位元組位移處取得 Int16 值 (應該在緩衝區中擷取之值的位置 ; 如果是 false 或 undefined，就會讀取位元組由大到小的值，否則會讀取位元組由小到大的值)
+                if (pixelValue >= Max) grayValue = 255; // 灰階值 白
+                    else if (Min > pixelValue) grayValue = 0; // 灰階值 黑    if ((pvalue[i][j] == 1) GrayValue = 0; for mammography
+                    else grayValue = Math.round((pixelValue - Min) / WindowWidth * 256); //對數字做指定位數的四捨五入計算;電腦顯示值
+                canvasData.data[canvasDataIndex] = grayValue;
+                canvasData.data[canvasDataIndex + 1] = grayValue;
+                canvasData.data[canvasDataIndex + 2] = grayValue; 
+                canvasData.data[canvasDataIndex + 3] =255;   // Alpha
+                
+            }
+         ctx.putImageData(canvasData, 0, 0);
+        }
+     </script>   
+
+    
+</html>
