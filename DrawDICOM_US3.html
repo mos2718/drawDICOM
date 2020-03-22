@@ -3,13 +3,13 @@
 <head>  <script src="HTTP2019.js"></script>      </head>
 <body style="width: 1405px; height: 1335px;">
 <input id="Button1" onclick="setPixel()" type="button" value="button" /><br><br>
-<canvas id="canvas" width="640" height="486"></canvas>
+<canvas id="canvas" width="778" height="406"></canvas>
 <script>
     
 	var dicomData;
     // Load DICOM image binary data
     function callBack() { dicomData = new DataView(ret);   } 
-	HTTPGetBinaryData("imgDir/US1.dcm"); 
+	HTTPGetBinaryData("imgDir/US3.dcm"); 
 
     var c = document.getElementById("canvas");
     var ctx = c.getContext("2d");
@@ -17,16 +17,16 @@
     function setPixel() {
         // Create an ImageData object
         var imageData = ctx.getImageData(0, 0, c.width, c.height);
-        for (var y = 100; y < 380; y++) //c.height; y++)
-         {for (var x = 200; x < 500; x++) // c.width; x++)    
+        for (var y = 0; y < 406; y++) //c.height; y++)
+         {for (var x = 0; x < 778; x++) // c.width; x++)    
             {
                 // Get DICOM image pixel index, 1118 pixelDataOffset
-                var dicomPixelIndex = (y * c.width + x) * 3 + 916;
+                var dicomPixelIndex = (y * c.width + x)  + 1058;
                 // Get the canvas Data +  index
                 var canvasDataIndex = (y * c.width + x) * 4;
                 imageData.data[canvasDataIndex] = dicomData.getUint8(dicomPixelIndex);     // Red
-                imageData.data[canvasDataIndex + 1] = dicomData.getUint8(dicomPixelIndex +1); // Green
-                imageData.data[canvasDataIndex + 2] = dicomData.getUint8(dicomPixelIndex +2);  // Blue
+                imageData.data[canvasDataIndex + 1] = dicomData.getUint8(dicomPixelIndex); // Green
+                imageData.data[canvasDataIndex + 2] = dicomData.getUint8(dicomPixelIndex);  // Blue
                 imageData.data[canvasDataIndex + 3] =255;   // Alpha
             }
         }

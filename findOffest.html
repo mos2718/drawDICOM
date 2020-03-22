@@ -1,0 +1,42 @@
+
+<html>
+
+<head>
+  <script src="HTTP2019.js"></script>   
+</head>
+<body style="width: 1405px; height: 1335px;">
+    <input id="Button1" onclick="findOffset()" type="button" value="button" /><br />
+
+</body>
+    <script>
+	var dicomData;
+    // Load DICOM image binary data
+    function callBack() { dicomData = new DataView(ret);   } 
+	HTTPGetBinaryData("imgDir/US3.dcm"); 
+    //var Offset = 1658;
+    function findOffset() {
+        //alert(dicomData.getUint8(0));
+        var imgLength;
+        imgLength = dicomData.byteLength; 
+       // alert( imgLength);
+        var b1,b2,b3,b4;  //7F E0,00 10  or  E0 7F, 10 00
+        b1 = 7 *16 + 15; b2= 14 *16; b3= 0; b4 =16;
+        for (i = 0; i <imgLength ; i++)
+            {if(dicomData.getUint8(i)==b1 &&  dicomData.getUint8(i+1)==b2  &&  dicomData.getUint8(i+2)==b3 && dicomData.getUint8(i+3)==b4 )
+                {alert(" big endian");
+
+                 if(dicomData.getUint8(i + 4)== 79 )  alert (i +12);  // 'O' ASCII =79
+                  else alert(i+8);
+                }
+            if(dicomData.getUint8(i)==b2 &&  dicomData.getUint8(i+1)==b1  &&  dicomData.getUint8(i+2)==b4 && dicomData.getUint8(i+3)==b3 )
+                {alert(" little endian");
+                 if(dicomData.getUint8(i + 4)== 79 )  alert (i +12);
+                  else alert(i+8);
+                }
+               
+            }
+        }
+     </script>   
+
+    
+</html>
