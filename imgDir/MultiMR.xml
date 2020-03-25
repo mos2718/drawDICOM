@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NativeDicomModel>
+<DicomAttribute  tag="00020000"  offset ="140" length ="4"  vr= "UL" keyword= "FileMetaInformationGroupLength" ><Value number="1" >-973078528</Value></DicomAttribute>
+<DicomAttribute  tag="00020001"  offset ="156" length ="2"  vr= "OB" keyword= "FileMetaInformationVersion" ></DicomAttribute>
+<DicomAttribute  tag="00020002"  offset ="166" length ="28"  vr= "UI" keyword= "MediaStorageSOPClassUID" ><Value number="1" >1.2.840.10008.5.1.4.1.1.4.1</Value></DicomAttribute>
+<DicomAttribute  tag="00020003"  offset ="202" length ="58"  vr= "UI" keyword= "MediaStorageSOPInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000017</Value></DicomAttribute>
+<DicomAttribute  tag="00020010"  offset ="268" length ="20"  vr= "UI" keyword= "TransferSyntaxUID" ><Value number="1" >1.2.840.10008.1.2.1</Value></DicomAttribute>
+<DicomAttribute  tag="00020012"  offset ="296" length ="30"  vr= "UI" keyword= "ImplementationClassUID" ><Value number="1" >1.3.12.2.1107.5.99.3.20080101</Value></DicomAttribute>
+<DicomAttribute  tag="00020013"  offset ="334" length ="8"  vr= "SH" keyword= "ImplementationVersionName" ><Value number="1" >SIEMENS </Value></DicomAttribute>
+<DicomAttribute  tag="00080005"  offset ="350" length ="10"  vr= "CS" keyword= "SpecificCharacterSet" ><Value number="1" >ISO_IR 100</Value></DicomAttribute>
+<DicomAttribute  tag="00080008"  offset ="368" length ="32"  vr= "CS" keyword= "ImageType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00080012"  offset ="408" length ="8"  vr= "DA" keyword= "InstanceCreationDate" ><Value number="1" >20170626</Value></DicomAttribute>
+<DicomAttribute  tag="00080013"  offset ="424" length ="14"  vr= "TM" keyword= "InstanceCreationTime" ><Value number="1" >102911.913054 </Value></DicomAttribute>
+<DicomAttribute  tag="00080016"  offset ="446" length ="28"  vr= "UI" keyword= "SOPClassUID" ><Value number="1" >1.2.840.10008.5.1.4.1.1.4.1</Value></DicomAttribute>
+<DicomAttribute  tag="00080018"  offset ="482" length ="58"  vr= "UI" keyword= "SOPInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000017</Value></DicomAttribute>
+<DicomAttribute  tag="00080020"  offset ="548" length ="8"  vr= "DA" keyword= "StudyDate" ><Value number="1" >20170628</Value></DicomAttribute>
+<DicomAttribute  tag="00080021"  offset ="564" length ="8"  vr= "DA" keyword= "SeriesDate" ><Value number="1" >20170628</Value></DicomAttribute>
+<DicomAttribute  tag="00080022"  offset ="580" length ="8"  vr= "DA" keyword= "AcquisitionDate" ><Value number="1" >20170628</Value></DicomAttribute>
+<DicomAttribute  tag="00080023"  offset ="596" length ="8"  vr= "DA" keyword= "ContentDate" ><Value number="1" >20170628</Value></DicomAttribute>
+<DicomAttribute  tag="0008002A"  offset ="612" length ="22"  vr= "DT" keyword= "AcquisitionDateTime" ><Value number="1" >20170628094102.547573 </Value></DicomAttribute>
+<DicomAttribute  tag="00080030"  offset ="642" length ="14"  vr= "TM" keyword= "StudyTime" ><Value number="1" >094102.548572 </Value></DicomAttribute>
+<DicomAttribute  tag="00080031"  offset ="664" length ="14"  vr= "TM" keyword= "SeriesTime" ><Value number="1" >094102.548572 </Value></DicomAttribute>
+<DicomAttribute  tag="00080032"  offset ="686" length ="14"  vr= "TM" keyword= "AcquisitionTime" ><Value number="1" >094102.548572 </Value></DicomAttribute>
+<DicomAttribute  tag="00080033"  offset ="708" length ="14"  vr= "TM" keyword= "ContentTime" ><Value number="1" >094102.548572 </Value></DicomAttribute>
+<DicomAttribute  tag="00080050"  offset ="730" length ="0"  vr= "SH" keyword= "AccessionNumber" ></DicomAttribute>
+<DicomAttribute  tag="00080060"  offset ="738" length ="2"  vr= "CS" keyword= "Modality" ><Value number="1" >MR</Value></DicomAttribute>
+<DicomAttribute  tag="00080070"  offset ="748" length ="24"  vr= "LO" keyword= "Manufacturer" ><Value number="1" >Siemens HealthCare GmbH </Value></DicomAttribute>
+<DicomAttribute  tag="00080080"  offset ="780" length ="0"  vr= "LO" keyword= "InstitutionName" ></DicomAttribute>
+<DicomAttribute  tag="00080090"  offset ="788" length ="0"  vr= "PN" keyword= "ReferringPhysicianName" ></DicomAttribute>
+<DicomAttribute  tag="00081010"  offset ="796" length ="0"  vr= "SH" keyword= "StationName" ></DicomAttribute>
+<DicomAttribute  tag="00081090"  offset ="804" length ="14"  vr= "LO" keyword= "ManufacturerModelName" ><Value number="1" >MAGNETOM Vida </Value></DicomAttribute>
+<DicomAttribute  tag="00089154"  offset ="830" length ="282"  vr= "SQ" keyword= "SourceImageEvidenceSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00081115"  offset ="850" length ="196"  vr= "SQ" keyword= "ReferencedSeriesSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00081199"  offset ="870" length ="110"  vr= "SQ" keyword= "ReferencedSOPSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00081150"  offset ="886" length ="28"  vr= "UI" keyword= "ReferencedSOPClassUID" ><Value number="1" >1.2.840.10008.5.1.4.1.1.4.1</Value></DicomAttribute>
+<DicomAttribute  tag="00081155"  offset ="922" length ="58"  vr= "UI" keyword= "ReferencedSOPInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000018</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="0020000E"  offset ="988" length ="58"  vr= "UI" keyword= "SeriesInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000019</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="0020000D"  offset ="1054" length ="58"  vr= "UI" keyword= "StudyInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000012</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00089205"  offset ="1120" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="1138" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="1156" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="1168" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="1186" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+<DicomAttribute  tag="00100010"  offset ="1202" length ="10"  vr= "PN" keyword= "PatientName" ><Value number="1" >Anonymous </Value></DicomAttribute>
+<DicomAttribute  tag="00100020"  offset ="1220" length ="4"  vr= "LO" keyword= "PatientID" ><Value number="1" >ANON</Value></DicomAttribute>
+<DicomAttribute  tag="00100030"  offset ="1232" length ="8"  vr= "DA" keyword= "PatientBirthDate" ><Value number="1" >20170628</Value></DicomAttribute>
+<DicomAttribute  tag="00100040"  offset ="1248" length ="2"  vr= "CS" keyword= "PatientSex" ><Value number="1" >O </Value></DicomAttribute>
+<DicomAttribute  tag="00120062"  offset ="1258" length ="4"  vr= "CS" keyword= "PatientIdentityRemoved" ><Value number="1" >YES </Value></DicomAttribute>
+<DicomAttribute  tag="00120063"  offset ="1270" length ="62"  vr= "LO" keyword= "DeidentificationMethod" ><Value number="1" >Deidentified\Basic Application Confidentiality Profile applied</Value></DicomAttribute>
+<DicomAttribute  tag="00120064"  offset ="1344" length ="84"  vr= "SQ" keyword= "DeidentificationMethodCodeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00080100"  offset ="1360" length ="6"  vr= "SH" keyword= "CodeValue" ><Value number="1" >113100</Value></DicomAttribute>
+<DicomAttribute  tag="00080102"  offset ="1374" length ="4"  vr= "SH" keyword= "CodingSchemeDesignator" ><Value number="1" >DCM </Value></DicomAttribute>
+<DicomAttribute  tag="00080104"  offset ="1386" length ="42"  vr= "LO" keyword= "CodeMeaning" ><Value number="1" >Basic Application Confidentiality Profile </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00180015"  offset ="1436" length ="4"  vr= "CS" keyword= "BodyPartExamined" ><Value number="1" >HEAD</Value></DicomAttribute>
+<DicomAttribute  tag="00180023"  offset ="1448" length ="2"  vr= "CS" keyword= "MRAcquisitionType" ><Value number="1" >2D</Value></DicomAttribute>
+<DicomAttribute  tag="00180087"  offset ="1458" length ="2"  vr= "DS" keyword= "MagneticFieldStrength" ><Value number="1" >3 </Value></DicomAttribute>
+<DicomAttribute  tag="00180088"  offset ="1468" length ="4"  vr= "DS" keyword= "SpacingBetweenSlices" ><Value number="1" >5.2 </Value></DicomAttribute>
+<DicomAttribute  tag="00181000"  offset ="1480" length ="12"  vr= "LO" keyword= "DeviceSerialNumber" ><Value number="1" >DeIdentified</Value></DicomAttribute>
+<DicomAttribute  tag="00181020"  offset ="1500" length ="22"  vr= "LO" keyword= "SoftwareVersions" ><Value number="1" >syngo MR XA10\SMRVB20A</Value></DicomAttribute>
+<DicomAttribute  tag="00181030"  offset ="1530" length ="12"  vr= "LO" keyword= "ProtocolName" ><Value number="1" >DeIdentified</Value></DicomAttribute>
+<DicomAttribute  tag="00185100"  offset ="1550" length ="4"  vr= "CS" keyword= "PatientPosition" ><Value number="1" >HFS </Value></DicomAttribute>
+<DicomAttribute  tag="00189004"  offset ="1562" length ="8"  vr= "CS" keyword= "ContentQualification" ><Value number="1" >PRODUCT </Value></DicomAttribute>
+<DicomAttribute  tag="00189005"  offset ="1578" length ="10"  vr= "SH" keyword= "PulseSequenceName" ><Value number="1" >*h2d1_320 </Value></DicomAttribute>
+<DicomAttribute  tag="00189008"  offset ="1596" length ="4"  vr= "CS" keyword= "EchoPulseSequence" ><Value number="1" >SPIN</Value></DicomAttribute>
+<DicomAttribute  tag="00189012"  offset ="1608" length ="2"  vr= "CS" keyword= "MultiPlanarExcitation" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189014"  offset ="1618" length ="2"  vr= "CS" keyword= "PhaseContrast" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189015"  offset ="1628" length ="2"  vr= "CS" keyword= "TimeOfFlightContrast" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189017"  offset ="1638" length ="4"  vr= "CS" keyword= "SteadyStatePulseSequence" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189018"  offset ="1650" length ="2"  vr= "CS" keyword= "EchoPlanarPulseSequence" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189024"  offset ="1660" length ="2"  vr= "CS" keyword= "SaturationRecovery" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189025"  offset ="1670" length ="4"  vr= "CS" keyword= "SpectrallySelectedSuppression" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189029"  offset ="1682" length ="4"  vr= "CS" keyword= "OversamplingPhase" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189032"  offset ="1694" length ="12"  vr= "CS" keyword= "GeometryOfKSpaceTraversal" ><Value number="1" >RECTILINEAR </Value></DicomAttribute>
+<DicomAttribute  tag="00189033"  offset ="1714" length ="6"  vr= "CS" keyword= "SegmentedKSpaceTraversal" ><Value number="1" >SINGLE</Value></DicomAttribute>
+<DicomAttribute  tag="00189064"  offset ="1728" length ="4"  vr= "CS" keyword= "KSpaceFiltering" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189093"  offset ="1740" length ="2"  vr= "US" keyword= "NumberOfKSpaceTrajectories" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00189174"  offset ="1750" length ="4"  vr= "CS" keyword= "ApplicableSafetyStandardAgency" ><Value number="1" >IEC </Value></DicomAttribute>
+<DicomAttribute  tag="0020000D"  offset ="1762" length ="58"  vr= "UI" keyword= "StudyInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000012</Value></DicomAttribute>
+<DicomAttribute  tag="0020000E"  offset ="1828" length ="58"  vr= "UI" keyword= "SeriesInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000020</Value></DicomAttribute>
+<DicomAttribute  tag="00200010"  offset ="1894" length ="0"  vr= "SH" keyword= "StudyID" ></DicomAttribute>
+<DicomAttribute  tag="00200011"  offset ="1902" length ="2"  vr= "IS" keyword= "SeriesNumber" ><Value number="1" >13</Value></DicomAttribute>
+<DicomAttribute  tag="00200012"  offset ="1912" length ="2"  vr= "IS" keyword= "AcquisitionNumber" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00200013"  offset ="1922" length ="2"  vr= "IS" keyword= "InstanceNumber" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00200052"  offset ="1932" length ="58"  vr= "UI" keyword= "FrameOfReferenceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000014</Value></DicomAttribute>
+<DicomAttribute  tag="00201040"  offset ="1998" length ="0"  vr= "LO" keyword= "PositionReferenceIndicator" ></DicomAttribute>
+<DicomAttribute  tag="00209221"  offset ="2010" length ="74"  vr= "SQ" keyword= "DimensionOrganizationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209164"  offset ="2026" length ="58"  vr= "UI" keyword= "DimensionOrganizationUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000021</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209222"  offset ="2096" length ="196"  vr= "SQ" keyword= "DimensionIndexSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209164"  offset ="2112" length ="58"  vr= "UI" keyword= "DimensionOrganizationUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000021</Value></DicomAttribute>
+<DicomAttribute  tag="00209165"  offset ="2178" length ="4"  vr= "AT" keyword= "DimensionIndexPointer" ><Value number="1" >-1873412064</Value></DicomAttribute>
+<DicomAttribute  tag="00209167"  offset ="2190" length ="4"  vr= "AT" keyword= "FunctionalGroupPointer" ><Value number="1" >-1861156832</Value></DicomAttribute>
+</Item> 
+<Item  number="2"   >
+<DicomAttribute  tag="00209164"  offset ="2210" length ="58"  vr= "UI" keyword= "DimensionOrganizationUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000021</Value></DicomAttribute>
+<DicomAttribute  tag="00209165"  offset ="2276" length ="4"  vr= "AT" keyword= "DimensionIndexPointer" ><Value number="1" >-1873346528</Value></DicomAttribute>
+<DicomAttribute  tag="00209167"  offset ="2288" length ="4"  vr= "AT" keyword= "FunctionalGroupPointer" ><Value number="1" >-1861156832</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00280002"  offset ="2300" length ="2"  vr= "US" keyword= "SamplesPerPixel" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00280004"  offset ="2310" length ="12"  vr= "CS" keyword= "PhotometricInterpretation" ><Value number="1" >MONOCHROME2 </Value></DicomAttribute>
+<DicomAttribute  tag="00280008"  offset ="2330" length ="2"  vr= "IS" keyword= "NumberOfFrames" ><Value number="1" >27</Value></DicomAttribute>
+<DicomAttribute  tag="00280010"  offset ="2340" length ="2"  vr= "US" keyword= "Rows" ><Value number="1" >320</Value></DicomAttribute>
+<DicomAttribute  tag="00280011"  offset ="2350" length ="2"  vr= "US" keyword= "Columns" ><Value number="1" >320</Value></DicomAttribute>
+<DicomAttribute  tag="00280100"  offset ="2360" length ="2"  vr= "US" keyword= "BitsAllocated" ><Value number="1" >16</Value></DicomAttribute>
+<DicomAttribute  tag="00280101"  offset ="2370" length ="2"  vr= "US" keyword= "BitsStored" ><Value number="1" >12</Value></DicomAttribute>
+<DicomAttribute  tag="00280102"  offset ="2380" length ="2"  vr= "US" keyword= "HighBit" ><Value number="1" >11</Value></DicomAttribute>
+<DicomAttribute  tag="00280103"  offset ="2390" length ="2"  vr= "US" keyword= "PixelRepresentation" ><Value number="1" >0</Value></DicomAttribute>
+<DicomAttribute  tag="00280106"  offset ="2400" length ="2"  vr= "US" keyword= "SmallestImagePixelValue" ><Value number="1" >0</Value></DicomAttribute>
+<DicomAttribute  tag="00280107"  offset ="2410" length ="2"  vr= "US" keyword= "LargestImagePixelValue" ><Value number="1" >2917</Value></DicomAttribute>
+<DicomAttribute  tag="00280301"  offset ="2420" length ="2"  vr= "CS" keyword= "BurnedInAnnotation" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00282110"  offset ="2430" length ="2"  vr= "CS" keyword= "LossyImageCompression" ><Value number="1" >00</Value></DicomAttribute>
+<DicomAttribute  tag="20500020"  offset ="2440" length ="8"  vr= "CS" keyword= "PresentationLUTShape" ><Value number="1" >IDENTITY</Value></DicomAttribute>
+<DicomAttribute  tag="52009229"  offset ="2460" length ="2274"  vr= "SQ" keyword= "Unknown" ><Item  number="1"   >
+<DicomAttribute  tag="00081140"  offset ="2480" length ="188"  vr= "SQ" keyword= "ReferencedImageSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00081150"  offset ="2496" length ="28"  vr= "UI" keyword= "ReferencedSOPClassUID" ><Value number="1" >1.2.840.10008.5.1.4.1.1.4.1</Value></DicomAttribute>
+<DicomAttribute  tag="00081155"  offset ="2532" length ="58"  vr= "UI" keyword= "ReferencedSOPInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000016</Value></DicomAttribute>
+<DicomAttribute  tag="00081160"  offset ="2598" length ="6"  vr= "IS" keyword= "ReferencedFrameNumber" ><Value number="1" >3\8\13</Value></DicomAttribute>
+<DicomAttribute  tag="0040A170"  offset ="2616" length ="52"  vr= "SQ" keyword= "PurposeOfReferenceCodeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00080100"  offset ="2632" length ="6"  vr= "SH" keyword= "CodeValue" ><Value number="1" >121311</Value></DicomAttribute>
+<DicomAttribute  tag="00080102"  offset ="2646" length ="4"  vr= "SH" keyword= "CodingSchemeDesignator" ><Value number="1" >DCM </Value></DicomAttribute>
+<DicomAttribute  tag="00080104"  offset ="2658" length ="10"  vr= "LO" keyword= "CodeMeaning" ><Value number="1" >Localizer </Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+</DicomAttribute><DicomAttribute  tag="00089124"  offset ="2680" length ="274"  vr= "SQ" keyword= "DerivationImageSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00082112"  offset ="2700" length ="182"  vr= "SQ" keyword= "SourceImageSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00081150"  offset ="2716" length ="28"  vr= "UI" keyword= "ReferencedSOPClassUID" ><Value number="1" >1.2.840.10008.5.1.4.1.1.4.1</Value></DicomAttribute>
+<DicomAttribute  tag="00081155"  offset ="2752" length ="58"  vr= "UI" keyword= "ReferencedSOPInstanceUID" ><Value number="1" >1.3.12.2.1107.5.2.50.999999.30000017062809410010100000018</Value></DicomAttribute>
+<DicomAttribute  tag="0040A170"  offset ="2822" length ="60"  vr= "SQ" keyword= "PurposeOfReferenceCodeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00080100"  offset ="2838" length ="6"  vr= "SH" keyword= "CodeValue" ><Value number="1" >113062</Value></DicomAttribute>
+<DicomAttribute  tag="00080102"  offset ="2852" length ="4"  vr= "SH" keyword= "CodingSchemeDesignator" ><Value number="1" >DCM </Value></DicomAttribute>
+<DicomAttribute  tag="00080104"  offset ="2864" length ="18"  vr= "LO" keyword= "CodeMeaning" ><Value number="1" >Pixel by pixel DC </Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+</DicomAttribute><DicomAttribute  tag="00089215"  offset ="2894" length ="60"  vr= "SQ" keyword= "DerivationCodeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00080100"  offset ="2910" length ="6"  vr= "SH" keyword= "CodeValue" ><Value number="1" >113062</Value></DicomAttribute>
+<DicomAttribute  tag="00080102"  offset ="2924" length ="4"  vr= "SH" keyword= "CodingSchemeDesignator" ><Value number="1" >DCM </Value></DicomAttribute>
+<DicomAttribute  tag="00080104"  offset ="2936" length ="18"  vr= "LO" keyword= "CodeMeaning" ><Value number="1" >Pixel by pixel DC </Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+</DicomAttribute><DicomAttribute  tag="00189006"  offset ="2966" length ="70"  vr= "SQ" keyword= "MRImagingModifierSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00180095"  offset ="2982" length ="4"  vr= "DS" keyword= "PixelBandwidth" ><Value number="1" >601 </Value></DicomAttribute>
+<DicomAttribute  tag="00189020"  offset ="2994" length ="4"  vr= "CS" keyword= "MagnetizationTransfer" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189022"  offset ="3006" length ="2"  vr= "CS" keyword= "BloodSignalNulling" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189028"  offset ="3016" length ="4"  vr= "CS" keyword= "Tagging" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189098"  offset ="3028" length ="8"  vr= "FD" keyword= "TransmitterFrequency" ><Value number="1" >123.255198</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189042"  offset ="3048" length ="594"  vr= "SQ" keyword= "MRReceiveCoilSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00181250"  offset ="3064" length ="16"  vr= "SH" keyword= "ReceiveCoilName" ><Value number="1" >HeadNeck_20_TCS </Value></DicomAttribute>
+<DicomAttribute  tag="00189041"  offset ="3088" length ="2"  vr= "LO" keyword= "ReceiveCoilManufacturerName" ><Value number="1" >NN</Value></DicomAttribute>
+<DicomAttribute  tag="00189043"  offset ="3098" length ="10"  vr= "CS" keyword= "ReceiveCoilType" ><Value number="1" >MULTICOIL </Value></DicomAttribute>
+<DicomAttribute  tag="00189044"  offset ="3116" length ="2"  vr= "CS" keyword= "QuadratureReceiveCoil" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189045"  offset ="3130" length ="512"  vr= "SQ" keyword= "MultiCoilDefinitionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00189047"  offset ="3146" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H31 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3158" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="2"   >
+<DicomAttribute  tag="00189047"  offset ="3178" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H32 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3190" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="3"   >
+<DicomAttribute  tag="00189047"  offset ="3210" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H33 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3222" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="4"   >
+<DicomAttribute  tag="00189047"  offset ="3242" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H34 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3254" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="5"   >
+<DicomAttribute  tag="00189047"  offset ="3274" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H11 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3286" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="6"   >
+<DicomAttribute  tag="00189047"  offset ="3306" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H12 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3318" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="7"   >
+<DicomAttribute  tag="00189047"  offset ="3338" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H13 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3350" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="8"   >
+<DicomAttribute  tag="00189047"  offset ="3370" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H14 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3382" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="9"   >
+<DicomAttribute  tag="00189047"  offset ="3402" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H21 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3414" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="10"   >
+<DicomAttribute  tag="00189047"  offset ="3434" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H22 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3446" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="11"   >
+<DicomAttribute  tag="00189047"  offset ="3466" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H23 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3478" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="12"   >
+<DicomAttribute  tag="00189047"  offset ="3498" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H24 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3510" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="13"   >
+<DicomAttribute  tag="00189047"  offset ="3530" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H41 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3542" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="14"   >
+<DicomAttribute  tag="00189047"  offset ="3562" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H42 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3574" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="15"   >
+<DicomAttribute  tag="00189047"  offset ="3594" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H43 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3606" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+<Item  number="16"   >
+<DicomAttribute  tag="00189047"  offset ="3626" length ="4"  vr= "SH" keyword= "MultiCoilElementName" ><Value number="1" >H44 </Value></DicomAttribute>
+<DicomAttribute  tag="00189048"  offset ="3638" length ="4"  vr= "CS" keyword= "MultiCoilElementUsed" ><Value number="1" >YES </Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+</DicomAttribute><DicomAttribute  tag="00189049"  offset ="3654" length ="48"  vr= "SQ" keyword= "MRTransmitCoilSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00181251"  offset ="3670" length ="4"  vr= "SH" keyword= "TransmitCoilName" ><Value number="1" >Body</Value></DicomAttribute>
+<DicomAttribute  tag="00189050"  offset ="3682" length ="8"  vr= "LO" keyword= "TransmitCoilManufacturerName" ><Value number="1" >Siemens </Value></DicomAttribute>
+<DicomAttribute  tag="00189051"  offset ="3698" length ="4"  vr= "CS" keyword= "TransmitCoilType" ><Value number="1" >BODY</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189112"  offset ="3714" length ="468"  vr= "SQ" keyword= "MRTimingAndRelatedParametersSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00180080"  offset ="3730" length ="4"  vr= "DS" keyword= "RepetitionTime" ><Value number="1" >1500</Value></DicomAttribute>
+<DicomAttribute  tag="00180091"  offset ="3742" length ="4"  vr= "IS" keyword= "EchoTrainLength" ><Value number="1" >103 </Value></DicomAttribute>
+<DicomAttribute  tag="00181314"  offset ="3754" length ="4"  vr= "DS" keyword= "FlipAngle" ><Value number="1" >150 </Value></DicomAttribute>
+<DicomAttribute  tag="00189176"  offset ="3770" length ="78"  vr= "SQ" keyword= "OperatingModeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00189177"  offset ="3786" length ="8"  vr= "CS" keyword= "OperatingModeType" ><Value number="1" >GRADIENT</Value></DicomAttribute>
+<DicomAttribute  tag="00189178"  offset ="3802" length ="10"  vr= "CS" keyword= "OperatingMode" ><Value number="1" >IEC_NORMAL</Value></DicomAttribute>
+</Item> 
+<Item  number="2"   >
+<DicomAttribute  tag="00189177"  offset ="3828" length ="2"  vr= "CS" keyword= "OperatingModeType" ><Value number="1" >RF</Value></DicomAttribute>
+<DicomAttribute  tag="00189178"  offset ="3838" length ="10"  vr= "CS" keyword= "OperatingMode" ><Value number="1" >IEC_NORMAL</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189180"  offset ="3856" length ="14"  vr= "CS" keyword= "GradientOutputType" ><Value number="1" >PER_NERVE_STIM</Value></DicomAttribute>
+<DicomAttribute  tag="00189182"  offset ="3878" length ="8"  vr= "FD" keyword= "GradientOutput" ><Value number="1" >0.659083</Value></DicomAttribute>
+<DicomAttribute  tag="00189239"  offset ="3898" length ="264"  vr= "SQ" keyword= "SpecificAbsorptionRateSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00189179"  offset ="3914" length ="14"  vr= "CS" keyword= "SpecificAbsorptionRateDefinition" ><Value number="1" >IEC_WHOLE_BODY</Value></DicomAttribute>
+<DicomAttribute  tag="00189181"  offset ="3936" length ="8"  vr= "FD" keyword= "SpecificAbsorptionRateValue" ><Value number="1" >0.573063</Value></DicomAttribute>
+</Item> 
+<Item  number="2"   >
+<DicomAttribute  tag="00189179"  offset ="3960" length ="16"  vr= "CS" keyword= "SpecificAbsorptionRateDefinition" ><Value number="1" >IEC_PARTIAL_BODY</Value></DicomAttribute>
+<DicomAttribute  tag="00189181"  offset ="3984" length ="8"  vr= "FD" keyword= "SpecificAbsorptionRateValue" ><Value number="1" >3.037356</Value></DicomAttribute>
+</Item> 
+<Item  number="3"   >
+<DicomAttribute  tag="00189179"  offset ="4008" length ="8"  vr= "CS" keyword= "SpecificAbsorptionRateDefinition" ><Value number="1" >IEC_HEAD</Value></DicomAttribute>
+<DicomAttribute  tag="00189181"  offset ="4024" length ="8"  vr= "FD" keyword= "SpecificAbsorptionRateValue" ><Value number="1" >3.200000</Value></DicomAttribute>
+</Item> 
+<Item  number="4"   >
+<DicomAttribute  tag="00189179"  offset ="4048" length ="10"  vr= "CS" keyword= "SpecificAbsorptionRateDefinition" ><Value number="1" >IEC_LOCAL </Value></DicomAttribute>
+<DicomAttribute  tag="00189181"  offset ="4066" length ="8"  vr= "FD" keyword= "SpecificAbsorptionRateValue" ><Value number="1" >10.000000</Value></DicomAttribute>
+</Item> 
+<Item  number="5"   >
+<DicomAttribute  tag="00189179"  offset ="4090" length ="10"  vr= "CS" keyword= "SpecificAbsorptionRateDefinition" ><Value number="1" >SMR_B1RMS </Value></DicomAttribute>
+<DicomAttribute  tag="00189181"  offset ="4108" length ="8"  vr= "FD" keyword= "SpecificAbsorptionRateValue" ><Value number="1" >1.996281</Value></DicomAttribute>
+</Item> 
+<Item  number="6"   >
+<DicomAttribute  tag="00189179"  offset ="4132" length ="14"  vr= "CS" keyword= "SpecificAbsorptionRateDefinition" ><Value number="1" >SMR_BORELOCAL </Value></DicomAttribute>
+<DicomAttribute  tag="00189181"  offset ="4154" length ="8"  vr= "FD" keyword= "SpecificAbsorptionRateValue" ><Value number="1" >3.001856</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189240"  offset ="4170" length ="2"  vr= "US" keyword= "RFEchoTrainLength" ><Value number="1" >103</Value></DicomAttribute>
+<DicomAttribute  tag="00189241"  offset ="4180" length ="2"  vr= "US" keyword= "GradientEchoTrainLength" ><Value number="1" >0</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189114"  offset ="4194" length ="24"  vr= "SQ" keyword= "MREchoSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00189082"  offset ="4210" length ="8"  vr= "FD" keyword= "EffectiveEchoTime" ><Value number="1" >80.000000</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189115"  offset ="4230" length ="148"  vr= "SQ" keyword= "MRModifierSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00189009"  offset ="4246" length ="2"  vr= "CS" keyword= "InversionRecovery" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189010"  offset ="4256" length ="4"  vr= "CS" keyword= "FlowCompensation" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189021"  offset ="4268" length ="2"  vr= "CS" keyword= "T2Preparation" ><Value number="1" >NO</Value></DicomAttribute>
+<DicomAttribute  tag="00189026"  offset ="4278" length ="4"  vr= "CS" keyword= "SpectrallySelectedExcitation" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189027"  offset ="4290" length ="4"  vr= "CS" keyword= "SpatialPresaturation" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00189036"  offset ="4302" length ="6"  vr= "CS" keyword= "PartialFourierDirection" ><Value number="1" >PHASE </Value></DicomAttribute>
+<DicomAttribute  tag="00189069"  offset ="4316" length ="8"  vr= "FD" keyword= "ParallelReductionFactorInPlane" ><Value number="1" >2.000000</Value></DicomAttribute>
+<DicomAttribute  tag="00189077"  offset ="4332" length ="4"  vr= "CS" keyword= "ParallelAcquisition" ><Value number="1" >YES </Value></DicomAttribute>
+<DicomAttribute  tag="00189078"  offset ="4344" length ="6"  vr= "CS" keyword= "ParallelAcquisitionTechnique" ><Value number="1" >GRAPPA</Value></DicomAttribute>
+<DicomAttribute  tag="00189081"  offset ="4358" length ="4"  vr= "CS" keyword= "PartialFourier" ><Value number="1" >YES </Value></DicomAttribute>
+<DicomAttribute  tag="00189155"  offset ="4370" length ="8"  vr= "FD" keyword= "ParallelReductionFactorOutOfPlane" ><Value number="1" >1.000000</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189119"  offset ="4390" length ="18"  vr= "SQ" keyword= "MRAveragesSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00180083"  offset ="4406" length ="2"  vr= "DS" keyword= "NumberOfAverages" ><Value number="1" >1 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189125"  offset ="4420" length ="64"  vr= "SQ" keyword= "MRFOVGeometrySequence" ><Item  number="1"   >
+<DicomAttribute  tag="00180093"  offset ="4436" length ="4"  vr= "DS" keyword= "PercentSampling" ><Value number="1" >100 </Value></DicomAttribute>
+<DicomAttribute  tag="00180094"  offset ="4448" length ="4"  vr= "DS" keyword= "PercentPhaseFieldOfView" ><Value number="1" >100 </Value></DicomAttribute>
+<DicomAttribute  tag="00181312"  offset ="4460" length ="4"  vr= "CS" keyword= "InPlanePhaseEncodingDirection" ><Value number="1" >ROW </Value></DicomAttribute>
+<DicomAttribute  tag="00189058"  offset ="4472" length ="2"  vr= "US" keyword= "MRAcquisitionFrequencyEncodingSteps" ><Value number="1" >320</Value></DicomAttribute>
+<DicomAttribute  tag="00189231"  offset ="4482" length ="2"  vr= "US" keyword= "MRAcquisitionPhaseEncodingStepsInPlane" ><Value number="1" >320</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00189341"  offset ="4496" length ="46"  vr= "SQ" keyword= "ContrastBolusUsageSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00189337"  offset ="4512" length ="2"  vr= "US" keyword= "ContrastBolusAgentNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00189342"  offset ="4522" length ="4"  vr= "CS" keyword= "ContrastBolusAgentAdministered" ><Value number="1" >YES </Value></DicomAttribute>
+<DicomAttribute  tag="00189343"  offset ="4534" length ="0"  vr= "CS" keyword= "ContrastBolusAgentDetected" ></DicomAttribute>
+<DicomAttribute  tag="00189344"  offset ="4542" length ="0"  vr= "CS" keyword= "ContrastBolusAgentPhase" ></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209071"  offset ="4554" length ="78"  vr= "SQ" keyword= "FrameAnatomySequence" ><Item  number="1"   >
+<DicomAttribute  tag="00082218"  offset ="4574" length ="48"  vr= "SQ" keyword= "AnatomicRegionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00080100"  offset ="4590" length ="8"  vr= "SH" keyword= "CodeValue" ><Value number="1" >T-D1100 </Value></DicomAttribute>
+<DicomAttribute  tag="00080102"  offset ="4606" length ="4"  vr= "SH" keyword= "CodingSchemeDesignator" ><Value number="1" >SRT </Value></DicomAttribute>
+<DicomAttribute  tag="00080104"  offset ="4618" length ="4"  vr= "LO" keyword= "CodeMeaning" ><Value number="1" >Head</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209072"  offset ="4630" length ="2"  vr= "CS" keyword= "FrameLaterality" ><Value number="1" >U </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289110"  offset ="4644" length ="40"  vr= "SQ" keyword= "PixelMeasuresSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00180050"  offset ="4660" length ="2"  vr= "DS" keyword= "SliceThickness" ><Value number="1" >4 </Value></DicomAttribute>
+<DicomAttribute  tag="00280030"  offset ="4670" length ="14"  vr= "DS" keyword= "PixelSpacing" ><Value number="1" >0.6875\0.6875 </Value><Value number="2" >0.6875\0.6875 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289145"  offset ="4696" length ="38"  vr= "SQ" keyword= "PixelValueTransformationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281052"  offset ="4712" length ="2"  vr= "DS" keyword= "RescaleIntercept" ><Value number="1" >0 </Value></DicomAttribute>
+<DicomAttribute  tag="00281053"  offset ="4722" length ="2"  vr= "DS" keyword= "RescaleSlope" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00281054"  offset ="4732" length ="2"  vr= "LO" keyword= "RescaleType" ><Value number="1" >US</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+</DicomAttribute><DicomAttribute  tag="52009230"  offset ="4746" length ="10364"  vr= "SQ" keyword= "Unknown" ><Item  number="1"   >
+<DicomAttribute  tag="00189226"  offset ="4766" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="4782" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="4822" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="4840" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="4858" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="4870" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="4888" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="4908" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="4924" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="4934" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="4946" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="4958" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="4968" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="4988" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="5004" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-67.6002</Value><Value number="2" >-110\-110\-67.6002</Value><Value number="3" >-110\-110\-67.6002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="5034" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="5050" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="5098" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="5114" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1064</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="5126" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2128</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="2"   >
+<DicomAttribute  tag="00189226"  offset ="5150" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="5166" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="5206" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="5224" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="5242" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="5254" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="5272" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="5292" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="5308" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="5318" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >2</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="5330" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="5342" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="5352" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="5372" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="5388" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-62.4002</Value><Value number="2" >-110\-110\-62.4002</Value><Value number="3" >-110\-110\-62.4002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="5418" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="5434" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="5482" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="5498" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1322</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="5510" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2644</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="3"   >
+<DicomAttribute  tag="00189226"  offset ="5534" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="5550" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="5590" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="5608" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="5626" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="5638" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="5656" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="5676" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="5692" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="5702" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >3</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="5714" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="5726" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="5736" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="5756" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="5772" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-57.2002</Value><Value number="2" >-110\-110\-57.2002</Value><Value number="3" >-110\-110\-57.2002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="5802" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="5818" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="5866" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="5882" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1060</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="5894" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2120</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="4"   >
+<DicomAttribute  tag="00189226"  offset ="5918" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="5934" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="5974" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="5992" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="6010" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="6022" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="6040" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="6060" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="6076" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="6086" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >4</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="6098" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="6110" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="6120" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="6140" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="6156" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-52.0002</Value><Value number="2" >-110\-110\-52.0002</Value><Value number="3" >-110\-110\-52.0002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="6186" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="6202" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="6250" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="6266" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1458</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="6278" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2917</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="5"   >
+<DicomAttribute  tag="00189226"  offset ="6302" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="6318" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="6358" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="6376" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="6394" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="6406" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="6424" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="6444" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="6460" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="6470" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >5</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="6482" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="6494" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="6504" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="6524" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="6540" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-46.8002</Value><Value number="2" >-110\-110\-46.8002</Value><Value number="3" >-110\-110\-46.8002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="6570" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="6586" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="6634" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="6650" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1050</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="6662" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2101</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="6"   >
+<DicomAttribute  tag="00189226"  offset ="6686" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="6702" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="6742" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="6760" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="6778" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="6790" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="6808" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="6828" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="6844" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="6854" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >6</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="6866" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="6878" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="6888" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="6908" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="6924" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-41.6002</Value><Value number="2" >-110\-110\-41.6002</Value><Value number="3" >-110\-110\-41.6002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="6954" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="6970" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="7018" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="7034" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1416</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="7046" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2832</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="7"   >
+<DicomAttribute  tag="00189226"  offset ="7070" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="7086" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="7126" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="7144" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="7162" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="7174" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="7192" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="7212" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="7228" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="7238" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >7</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="7250" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="7262" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="7272" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="7292" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="7308" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-36.4002</Value><Value number="2" >-110\-110\-36.4002</Value><Value number="3" >-110\-110\-36.4002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="7338" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="7354" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="7402" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="7418" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1086</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="7430" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2173</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="8"   >
+<DicomAttribute  tag="00189226"  offset ="7454" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="7470" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="7510" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="7528" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="7546" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="7558" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="7576" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="7596" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="7612" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="7622" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >8</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="7634" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="7646" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="7656" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="7676" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="7692" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-31.2002</Value><Value number="2" >-110\-110\-31.2002</Value><Value number="3" >-110\-110\-31.2002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="7722" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="7738" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="7786" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="7802" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1182</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="7814" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2364</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="9"   >
+<DicomAttribute  tag="00189226"  offset ="7838" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="7854" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="7894" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="7912" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="7930" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="7942" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="7960" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="7980" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="7996" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="8006" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >9</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="8018" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="8030" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="8040" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="8060" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="8076" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-26.0002</Value><Value number="2" >-110\-110\-26.0002</Value><Value number="3" >-110\-110\-26.0002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="8106" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="8122" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="8170" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="8186" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1177</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="8198" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2354</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="10"   >
+<DicomAttribute  tag="00189226"  offset ="8222" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="8238" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="8278" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="8296" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="8314" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="8326" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="8344" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="8364" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="8380" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="8390" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >10</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="8402" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="8414" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="8424" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="8444" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="8460" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-20.8002</Value><Value number="2" >-110\-110\-20.8002</Value><Value number="3" >-110\-110\-20.8002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="8490" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="8506" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="8554" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="8570" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1266</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="8582" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2532</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="11"   >
+<DicomAttribute  tag="00189226"  offset ="8606" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="8622" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="8662" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="8680" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="8698" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="8710" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="8728" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="8748" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="8764" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="8774" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >11</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="8786" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="8798" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="8808" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="8828" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="8844" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-15.6002</Value><Value number="2" >-110\-110\-15.6002</Value><Value number="3" >-110\-110\-15.6002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="8874" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="8890" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="8938" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="8954" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1225</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="8966" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2450</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="12"   >
+<DicomAttribute  tag="00189226"  offset ="8990" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="9006" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="9046" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="9064" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="9082" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="9094" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="9112" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="9132" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="9148" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="9158" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >12</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="9170" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="9182" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="9192" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="9212" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="9228" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-10.4002</Value><Value number="2" >-110\-110\-10.4002</Value><Value number="3" >-110\-110\-10.4002</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="9258" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="9274" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="9322" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="9338" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1230</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="9350" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2461</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="13"   >
+<DicomAttribute  tag="00189226"  offset ="9374" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="9390" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="9430" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="9448" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="9466" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="9478" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="9496" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="9516" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="9532" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="9542" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >13</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="9554" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="9566" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="9576" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="9596" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="9612" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-5.20022</Value><Value number="2" >-110\-110\-5.20022</Value><Value number="3" >-110\-110\-5.20022</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="9642" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="9658" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="9706" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="9722" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1177</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="9734" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2355</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="14"   >
+<DicomAttribute  tag="00189226"  offset ="9758" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="9774" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="9814" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="9832" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="9850" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="9862" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="9880" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="9900" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="9916" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="9926" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >14</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="9938" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="9950" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="9960" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="9980" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="9996" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\-0.00022</Value><Value number="2" >-110\-110\-0.00022</Value><Value number="3" >-110\-110\-0.00022</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="10026" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="10042" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="10090" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="10106" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1184</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="10118" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2368</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="15"   >
+<DicomAttribute  tag="00189226"  offset ="10142" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="10158" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="10198" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="10216" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="10234" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="10246" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="10264" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="10284" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="10300" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="10310" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >15</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="10322" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="10334" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="10344" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="10364" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="10380" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\5.19978 </Value><Value number="2" >-110\-110\5.19978 </Value><Value number="3" >-110\-110\5.19978 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="10410" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="10426" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="10474" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="10490" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1042</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="10502" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2085</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="16"   >
+<DicomAttribute  tag="00189226"  offset ="10526" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="10542" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="10582" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="10600" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="10618" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="10630" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="10648" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="10668" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="10684" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="10694" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >16</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="10706" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="10718" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="10728" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="10748" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="10764" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\10.3998 </Value><Value number="2" >-110\-110\10.3998 </Value><Value number="3" >-110\-110\10.3998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="10794" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="10810" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="10858" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="10874" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1063</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="10886" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2127</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="17"   >
+<DicomAttribute  tag="00189226"  offset ="10910" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="10926" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="10966" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="10984" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="11002" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="11014" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="11032" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="11052" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="11068" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="11078" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >17</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="11090" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="11102" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="11112" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="11132" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="11148" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\15.5998 </Value><Value number="2" >-110\-110\15.5998 </Value><Value number="3" >-110\-110\15.5998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="11178" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="11194" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="11242" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="11258" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1104</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="11270" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2208</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="18"   >
+<DicomAttribute  tag="00189226"  offset ="11294" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="11310" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="11350" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="11368" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="11386" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="11398" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="11416" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="11436" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="11452" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="11462" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >18</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="11474" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="11486" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="11496" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="11516" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="11532" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\20.7998 </Value><Value number="2" >-110\-110\20.7998 </Value><Value number="3" >-110\-110\20.7998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="11562" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="11578" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="11626" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="11642" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1059</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="11654" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2118</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="19"   >
+<DicomAttribute  tag="00189226"  offset ="11678" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="11694" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="11734" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="11752" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="11770" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="11782" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="11800" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="11820" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="11836" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="11846" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >19</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="11858" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="11870" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="11880" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="11900" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="11916" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\25.9998 </Value><Value number="2" >-110\-110\25.9998 </Value><Value number="3" >-110\-110\25.9998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="11946" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="11962" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="12010" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="12026" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1017</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="12038" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2034</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="20"   >
+<DicomAttribute  tag="00189226"  offset ="12062" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="12078" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="12118" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="12136" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="12154" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="12166" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="12184" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="12204" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="12220" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="12230" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >20</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="12242" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="12254" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="12264" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="12284" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="12300" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\31.1998 </Value><Value number="2" >-110\-110\31.1998 </Value><Value number="3" >-110\-110\31.1998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="12330" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="12346" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="12394" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="12410" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >986 </Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="12422" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >1972</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="21"   >
+<DicomAttribute  tag="00189226"  offset ="12446" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="12462" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="12502" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="12520" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="12538" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="12550" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="12568" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="12588" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="12604" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="12614" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >21</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="12626" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="12638" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="12648" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="12668" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="12684" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\36.3998 </Value><Value number="2" >-110\-110\36.3998 </Value><Value number="3" >-110\-110\36.3998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="12714" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="12730" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="12778" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="12794" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >1002</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="12806" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >2004</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="22"   >
+<DicomAttribute  tag="00189226"  offset ="12830" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="12846" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="12886" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="12904" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="12922" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="12934" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="12952" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="12972" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="12988" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="12998" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >22</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="13010" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="13022" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="13032" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="13052" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="13068" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\41.5998 </Value><Value number="2" >-110\-110\41.5998 </Value><Value number="3" >-110\-110\41.5998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="13098" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="13114" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="13162" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="13178" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >958 </Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="13190" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >1917</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="23"   >
+<DicomAttribute  tag="00189226"  offset ="13214" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="13230" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="13270" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="13288" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="13306" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="13318" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="13336" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="13356" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="13372" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="13382" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >23</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="13394" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="13406" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="13416" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="13436" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="13452" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\46.7998 </Value><Value number="2" >-110\-110\46.7998 </Value><Value number="3" >-110\-110\46.7998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="13482" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="13498" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="13546" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="13562" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >922 </Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="13574" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >1845</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="24"   >
+<DicomAttribute  tag="00189226"  offset ="13598" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="13614" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="13654" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="13672" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="13690" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="13702" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="13720" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="13740" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="13756" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="13766" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >24</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="13778" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="13790" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="13800" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="13820" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="13836" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\51.9998 </Value><Value number="2" >-110\-110\51.9998 </Value><Value number="3" >-110\-110\51.9998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="13866" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="13882" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="13930" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="13946" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >878 </Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="13958" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >1756</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="25"   >
+<DicomAttribute  tag="00189226"  offset ="13982" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="13998" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="14038" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="14056" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="14074" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="14086" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="14104" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="14124" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="14140" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="14150" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >25</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="14162" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="14174" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="14184" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="14204" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="14220" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\57.1998 </Value><Value number="2" >-110\-110\57.1998 </Value><Value number="3" >-110\-110\57.1998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="14250" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="14266" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="14314" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="14330" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >654 </Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="14342" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >1308</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="26"   >
+<DicomAttribute  tag="00189226"  offset ="14366" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="14382" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="14422" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="14440" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="14458" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="14470" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="14488" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="14508" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="14524" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="14534" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >26</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="14546" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="14558" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="14568" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="14588" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="14604" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\62.3998 </Value><Value number="2" >-110\-110\62.3998 </Value><Value number="3" >-110\-110\62.3998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="14634" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="14650" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="14698" length ="32"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="14714" length ="4"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >315 </Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="14726" length ="4"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >631 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+<Item  number="27"   >
+<DicomAttribute  tag="00189226"  offset ="14750" length ="130"  vr= "SQ" keyword= "MRImageFrameTypeSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00089007"  offset ="14766" length ="32"  vr= "CS" keyword= "FrameType" ><Value number="1" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="2" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="3" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value><Value number="4" >DERIVED\PRIMARY\NAVAIL\RESAMPLED</Value></DicomAttribute>
+<DicomAttribute  tag="00089205"  offset ="14806" length ="10"  vr= "CS" keyword= "PixelPresentation" ><Value number="1" >MONOCHROME</Value></DicomAttribute>
+<DicomAttribute  tag="00089206"  offset ="14824" length ="10"  vr= "CS" keyword= "VolumetricProperties" ><Value number="1" >DISTORTED </Value></DicomAttribute>
+<DicomAttribute  tag="00089207"  offset ="14842" length ="4"  vr= "CS" keyword= "VolumeBasedCalculationTechnique" ><Value number="1" >NONE</Value></DicomAttribute>
+<DicomAttribute  tag="00089208"  offset ="14854" length ="10"  vr= "CS" keyword= "ComplexImageComponent" ><Value number="1" >MAGNITUDE </Value></DicomAttribute>
+<DicomAttribute  tag="00089209"  offset ="14872" length ="8"  vr= "CS" keyword= "AcquisitionContrast" ><Value number="1" >UNKNOWN </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209111"  offset ="14892" length ="68"  vr= "SQ" keyword= "FrameContentSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00209056"  offset ="14908" length ="2"  vr= "SH" keyword= "StackID" ><Value number="1" >1 </Value></DicomAttribute>
+<DicomAttribute  tag="00209057"  offset ="14918" length ="4"  vr= "UL" keyword= "InStackPositionNumber" ><Value number="1" >27</Value></DicomAttribute>
+<DicomAttribute  tag="00209128"  offset ="14930" length ="4"  vr= "UL" keyword= "TemporalPositionIndex" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209156"  offset ="14942" length ="2"  vr= "US" keyword= "FrameAcquisitionNumber" ><Value number="1" >1</Value></DicomAttribute>
+<DicomAttribute  tag="00209157"  offset ="14952" length ="8"  vr= "UL" keyword= "DimensionIndexValues" ><Value number="1" >1</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209113"  offset ="14972" length ="34"  vr= "SQ" keyword= "PlanePositionSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200032"  offset ="14988" length ="18"  vr= "DS" keyword= "ImagePositionPatient" ><Value number="1" >-110\-110\67.5998 </Value><Value number="2" >-110\-110\67.5998 </Value><Value number="3" >-110\-110\67.5998 </Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00209116"  offset ="15018" length ="52"  vr= "SQ" keyword= "PlaneOrientationSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00200037"  offset ="15034" length ="36"  vr= "DS" keyword= "ImageOrientationPatient" ><Value number="1" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="2" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="3" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="4" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="5" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value><Value number="6" >1\3.897e-12\1e-06\-4.897e-12\1\1e-06</Value></DicomAttribute>
+</Item> 
+</DicomAttribute><DicomAttribute  tag="00289132"  offset ="15082" length ="28"  vr= "SQ" keyword= "FrameVOILUTSequence" ><Item  number="1"   >
+<DicomAttribute  tag="00281050"  offset ="15098" length ="2"  vr= "DS" keyword= "WindowCenter" ><Value number="1" >46</Value></DicomAttribute>
+<DicomAttribute  tag="00281051"  offset ="15108" length ="2"  vr= "DS" keyword= "WindowWidth" ><Value number="1" >92</Value></DicomAttribute>
+</Item> 
+</DicomAttribute></Item>
+</DicomAttribute><DicomAttribute  tag="7FE00010"  offset ="15122" length ="5529600"  vr= "OW" keyword= "PixelData" ></DicomAttribute>
+</NativeDicomModel>
