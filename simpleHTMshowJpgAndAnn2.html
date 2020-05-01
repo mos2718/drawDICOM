@@ -1,0 +1,37 @@
+﻿<html>
+<body >
+  <input type="radio" id="r1" name="W" checked="true" onclick="changeImg()">W/L 200/0 <br>
+  <input type="radio" id="r2" name="W" onclick="changeImg()">W/L  400/100 <br>
+  <input type="radio" id="r3" name="W" onclick="changeImg()" >W/L  1000/0 <br>
+  
+  <div style="position: relative;">
+     <img id="img1" src="https://www.dicomserver.co.uk/wado/WADO.asp?requestType=WADO&studyUID=1.2.840.113704.1.111.3904.1223815692.25&seriesUID=1.3.46.670589.33.1.11869590184029679182.2943924903674582335&objectUID=1.3.46.670589.33.1.13913490064291630411.26039299191060686300&contentType=image/jpeg&windowWidth=200&windowLevel=0" width="512" height="512"
+          style="position: absolute;  left: 0px; top:0px; z-index: 1;" />
+     <svg width="512" height="512"
+          style="position: absolute;  left: 0px; top:0px; z-index: 2;" >
+        <circle cx="360" cy="300" r="60" stroke="red" stroke-width="7" fill="none" />
+     </svg>  
+         
+  </div>
+</body>
+    <script type="text/javascript">
+   //  fill="none" 
+    function changeImg() { 
+      //  alert("aaa");
+        if (document.getElementById("r1").checked == true) {
+                document.getElementById("img1").src = "https://www.dicomserver.co.uk/wado/WADO.asp?requestType=WADO&studyUID=1.2.840.113704.1.111.3904.1223815692.25&seriesUID=1.3.46.670589.33.1.11869590184029679182.2943924903674582335&objectUID=1.3.46.670589.33.1.13913490064291630411.26039299191060686300&contentType=image/jpeg&windowWidth=200&windowLevel=0" 
+            }
+
+        if (document.getElementById("r2").checked == true) {
+                document.getElementById("img1").src = "https://www.dicomserver.co.uk/wado/WADO.asp?requestType=WADO&studyUID=1.2.840.113704.1.111.3904.1223815692.25&seriesUID=1.3.46.670589.33.1.11869590184029679182.2943924903674582335&objectUID=1.3.46.670589.33.1.13913490064291630411.26039299191060686300&contentType=image/jpeg&windowWidth=400&windowLevel=100"; 
+            }
+
+        if (document.getElementById("r3").checked == true) {
+                document.getElementById("img1").src = "https://www.dicomserver.co.uk/wado/WADO.asp?requestType=WADO&studyUID=1.2.840.113704.1.111.3904.1223815692.25&seriesUID=1.3.46.670589.33.1.11869590184029679182.2943924903674582335&objectUID=1.3.46.670589.33.1.13913490064291630411.26039299191060686300&contentType=image/jpeg&windowWidth=1000&windowLevel=0" 
+            }  
+
+        }        
+
+    </script>
+
+</html>
