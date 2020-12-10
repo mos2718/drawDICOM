@@ -1,6 +1,4 @@
-
 <html>
-
 <head>
   <script src="HTTP2019.js"></script>   
 </head>
@@ -35,9 +33,9 @@
                 if (pixelValue >= Max) grayValue = 255; // 灰階值 白
                     else if (Min > pixelValue) grayValue = 0; // 灰階值 黑    if ((pvalue[i][j] == 1) GrayValue = 0; for mammography
                     else grayValue = Math.round((pixelValue - Min) / WindowWidth * 256); //對數字做指定位數的四捨五入計算;電腦顯示值
-                canvasData.data[canvasDataIndex] = grayValue;
-                canvasData.data[canvasDataIndex + 1] = grayValue;
-                canvasData.data[canvasDataIndex + 2] = grayValue; 
+                canvasData.data[canvasDataIndex] =255- grayValue;
+                canvasData.data[canvasDataIndex + 1] =255- grayValue;
+                canvasData.data[canvasDataIndex + 2] = 255- grayValue; 
                 canvasData.data[canvasDataIndex + 3] =255;   // Alpha
                 
             }

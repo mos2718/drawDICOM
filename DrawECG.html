@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+  <script src="HTTP2019.js"></script>   
+</head>
+<body style="width: 1405px; height: 1335px;">
+  <input id="Button1" onclick="drawECG()" type="button" value="button" /><br><br>
+  <canvas id="canvas" width="1800" height="800" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.</canvas>
+   
+</body>
+    <script type="text/javascript">
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+		var RetData;
+        function callBack() {  RetData = new DataView(ret);   } 
+	    HTTPGetBinaryData("ECG/100.dat");
+        var ECGdat = new Array(2000);
+        for (var i = 0; i < ECGdat.length; i++) {   ECGdat[i] = new Array(2);}
+       
+        function ECGDatToArray() 
+           {var b1,b2,b3; 
+            for(var i=0;i< 2000;i++)
+                    {b1= RetData.getUint8(i*3);
+                    b2= RetData.getUint8(i*3+1);
+                    b3= RetData.getUint8(i*3+2); 
+                    ECGdat[i][0] = (b2 /16) *256 +b1;
+                    ECGdat[i][1] =  (b2 % 16) *256 +b3;
+                    }
+           }  
+                 
+    function drawECG() {
+            ECGDatToArray();
+            ctx.beginPath();
+            ctx.strokeStyle="#0000FF";
+            ctx.moveTo(0,400 -(ECGdat[0][0]- 1024));
+            for(i=0;i<1800;i++)   { ctx.lineTo(i,400 -(ECGdat[i][0]- 1024));  }
+            ctx.stroke(); }
+     </script>
+</html>
