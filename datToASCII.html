@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+  <script src="HTTP2019.js"></script>   
+ </head>
+<body >
+  <input id="Button1" onclick="manageResponseRet()" type="button" value="button" />
+  <p id="demo"></p>  
+</body>
+    <script type="text/javascript">
+    var RetData, txtRet, c;
+    txtRet = ""; 
+    function callBack() {  RetData = new DataView(ret);   } 
+	  HTTPGetBinaryData("test.txt");               
+    function manageResponseRet()
+       {for (var i = 0; i < 128; i++) 
+            { if ( i %128 ==0) txtRet += "<br>";     
+              c=RetData.getUint8(i); 
+              if( c >32 && c <127 ) {txtRet += String.fromCharCode(c); }
+                        else {txtRet += '.'; }
+             }   
+         document.getElementById("demo").innerHTML = txtRet;   
+      	}	
+    </script>
+</html>

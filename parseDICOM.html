@@ -1,0 +1,66 @@
+
+<html>
+
+<head>
+  <script src="HTTP2019.js"></script>   
+  <style type="text/css">
+    #TextArea1 {
+        height: 666px;
+        width: 1003px;
+    }
+
+</style>
+</head>
+<body style="width: 1405px; height: 1335px;">
+    <input id="Button1" onclick="parseDICOM()" type="button" value="button" /><br />
+    <p>
+        <textarea id="TextArea1" name="S1"></textarea></p>
+</body>
+    <script>
+	var dicomData;
+    // Load DICOM image binary data
+    function callBack() { RetData = new DataView(ret);   } 
+	HTTPGetBinaryData("imgDir/CT_A.dcm"); 
+
+    function byteToHex(byte) {
+     // convert the possibly signed byte (-128 to 127) to an unsigned byte (0 to 255).
+     // if you know, that you only deal with unsigned bytes (Uint8Array), you can omit this line
+     const unsignedByte = byte & 0xff;
+     // If the number can be represented with only 4 bits (0-15), 
+     // the hexadecimal representation of this number is only one char (0-9, a-f). 
+     if (unsignedByte < 16) {
+       return '0' + unsignedByte.toString(16);
+       } else {       return unsignedByte.toString(16);       }
+    }
+    function parseDataElement(dcmDataView, offset, isVR, isLittleEndian) 
+       {// tag
+        var retTxt,  hexRet , c;
+        hexRet =
+        for (var i = offset; i <offset + 4 ; i++) 
+            {c=RetData.getUint8(i); 
+              hexRet += byteToHex(c);
+             }    
+
+       }
+    function parseDICOM() {
+        var txtRet, hexRet;
+        var h1,h2;
+        txtRet ="b128-131: ";
+        hexRet ="";
+        for (var i = 128; i < 132; i++) 
+            {c=RetData.getUint8(i); 
+             if( c >32 && c <127 ) {txtRet += String.fromCharCode(c); }
+                          else {txtRet += '.'; }
+            
+            hexRet += byteToHex(c);
+             }  
+        txtRet += '  Hex:';
+        txtRet +=  hexRet;
+        txtRet += "\n";
+       
+        document.getElementById("TextArea1").value = txtRet;
+        }
+     </script>   
+
+    
+</html>
